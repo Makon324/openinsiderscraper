@@ -24,7 +24,7 @@ script_dir = Path(__file__).resolve().parent  # path to parent folder of the scr
 
 link = script_dir / "scrapes.csv"  # link to csv with scrapes
 
-default_ticker_link = r"K:\Projekty\stonksresearch\tickerlist\all_yf.txt"  # link to  txt with default ticker list
+default_ticker_link = script_dir / "default_tickers.txt"  # link to txt with default ticker list
 
 num_processes = 4  # number of processes
 
