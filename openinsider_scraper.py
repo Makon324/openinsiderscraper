@@ -40,7 +40,7 @@ def split_into_sublists(list, parts_num):  # splits list into parts
     return [list[i:i+chunk_size] for i in range(0, len(list), chunk_size)]
 
 
-def tickers_from_file(path):  # takes file path and outputs list of tickers in that path
+def tickers_from_file(path):  # takes file path and outputs list of tickers in that file
     if not (Path(path).exists() and path.endswith(".txt")):
         print(f"file {path} doesn't exist or is not a txt file")
         exit()
