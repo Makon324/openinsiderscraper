@@ -1,6 +1,6 @@
 # openinsiderscraper
 
-This Python script is designed to scrape insider trading data from the OpenInsider website for a list of stock tickers. It handles scraping, data aggregation and saving the results to a CSV file.
+This Python script is designed to scrape insider trading data from the openinsider website for a list of stock tickers. It handles scraping, data aggregation and saving the results to a CSV file.
 
 # How does it work
 
